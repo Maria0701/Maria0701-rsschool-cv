@@ -13,3 +13,19 @@ focus on frontend, I have been studying every aspect of frontend development and
 * 2016 - 2019 Web-developer and Search Engine Optimization in LLC "ROST"
 * 2019 - 2020 Freelance
 * 2020 - 2022 LLC Liberty (Webenergy-it) SEO and frontend developer
+
+## Skills
+* HTML
+* CSS
+* ES6
+* Webpack
+* Gulp
+* Vue (only training projects)
+* VS Code
+* Bootstrap
+* БЭМ
+* GIT
+
+## Foreign Languages
+* English B2 (Stayed in Great Britain for 4 months and worked in a travel agency in the booking department, though we worked mostly with Scandinavian countries)
+* German A1
