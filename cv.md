@@ -29,3 +29,16 @@ focus on frontend, I have been studying every aspect of frontend development and
 ## Foreign Languages
 * English B2 (Stayed in Great Britain for 4 months and worked in a travel agency in the booking department, though we worked mostly with Scandinavian countries)
 * German A1
+
+## Code examples 
+
+```javascript
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (Number.isInteger(num / i )) return false
+  }
+
+  return true
+};
+```
