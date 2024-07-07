@@ -1,0 +1,99 @@
+:root {
+  --blue-light: #56CCF2;
+  --white: #ffffff;
+  --blue-dark: #174180;
+  --grey2:  #4F4F4F;
+  --grey3: #828282;
+  --font-size: 16px;
+  --left-padding: 16px;
+  --right-padding: 20px;
+  --right-padding2: 26px;
+}
+
+html {
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-SemiBold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  
+body {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: var(--grey2);
+  font-size: var(--font-size);
+  line-height: 1.4;
+  font-family: 'Open Sans', 'Roboto', sans-serif;  
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.visually-hidden:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
